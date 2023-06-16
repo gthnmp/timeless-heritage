@@ -12,3 +12,18 @@
 #nav-button:hover::after {
   width: 110%;
 }
+
+#about-button:after {
+  content: "";
+  background-color:black;
+  width: 0%;
+  height: 1px;
+  bottom: 50%;
+  left:0;
+  position: absolute;
+  transition: 1s;
+}
+
+#about-button:hover::after {
+  width: 100%;
+}

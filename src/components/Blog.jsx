@@ -23,7 +23,7 @@ export default function Blog (){
     <section id ="blog" className='relative w-screen h-full px-4 lg:px-16 flex flex-col items-center gap-10 bg-neutral-950'>
 
       <div id = "headline" className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='open-sans text-white text-xl lg:text-4xl font-medium'>Articles</h1>
+        <h1 className='open-sans text-yellow-500 text-xl lg:text-4xl font-medium'>Articles</h1>
         <p className='open-sans text-white text-sm lg:text-base font-light text-center w-full lg:w-1/2'>Explore Jakarta's captivating stories and local insights in our Articles. Discover hidden gems and be inspired by the city's diverse narratives for your own adventures.</p>
       </div>
 

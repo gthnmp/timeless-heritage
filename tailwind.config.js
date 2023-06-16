@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       borderWidth : {
-        "1" : "1px"
+        "1" : "1px",
+        "1/2" : "0.5px",
+        "1/4" : "0.25px",
       },
       transitionDuration : {
         "1500" : "1500ms",

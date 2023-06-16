@@ -27,3 +27,8 @@
 .easeInBack {
   transition-timing-function:cubic-bezier(.72,.11,0,.99)
 }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+}
