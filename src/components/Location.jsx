@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 const images = {
-  'fatahillahMuseum' : 'https://images.unsplash.com/photo-1587053114035-e94f4162a358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-  'jasidoBuilding' : 'https://images.unsplash.com/photo-1662344987032-1ac7b0a2cb2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
-  'stasiunKota' : 'https://images.unsplash.com/photo-1684544102350-b89c07bced9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80',
+  'fatahillahMuseum' : 'https://images.unsplash.com/photo-1663335662806-89d22e034eb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80',
+  'shipyard' : 'https://upload.wikimedia.org/wikipedia/commons/7/78/Galangan_VOC.jpg',
+  'stasiunKota' : 'https://jakarta-tourism.sgp1.cdn.digitaloceanspaces.com/images/article/6580914031663785646.jpg',
+  'bantengSquare' : 'https://jakarta-tourism.sgp1.cdn.digitaloceanspaces.com/images/article/6580914031663785646.jpg'
 }
 
 const LocationCard = ( props ) => {
@@ -29,9 +30,9 @@ export default function Location(){
       </div>
 
       <div id = "images" className='flex flex-col lg:flex-row gap-10 h-auto justify-center items-center'>
-        <LocationCard source = {images.fatahillahMuseum} name = "Fatahillah Museum" location = "Old Town Jakarta"/>
-        <LocationCard source = {images.jasidoBuilding} name = "Jasindo Building" location = "Old Town Jakarta" />
-        <LocationCard source = {images.stasiunKota} name = "Jakarta Kota Station" location = "Old Town Jakarta"/>
+        <LocationCard source = {images.fatahillahMuseum} name = "Old Town Square" location = "West Jakarta"/>
+        <LocationCard source = {images.shipyard} name = "VOC Shipyard" location = "North Jakarta" />
+        <LocationCard source = {images.bantengSquare} name = "Banteng Square" location = "Central Jakarta"/>
       </div>
 
       <a href = '/' className='text-blue-500 open-sans text-sm uppercase'>See More</a>
