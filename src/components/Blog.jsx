@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 const images = {
-  'blog1' : 'https://images.unsplash.com/photo-1631898685899-078042d7a8d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+  'blog1' : 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/view-of-batavia-hendrick-dubbels.jpg',
   'blog2' : 'https://images.unsplash.com/photo-1575705812112-9e917baf7834?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
 }
 
@@ -23,8 +23,8 @@ export default function Blog (){
     <section id ="blog" className='relative w-screen h-full px-4 lg:px-16 flex flex-col items-center gap-10 bg-neutral-950'>
 
       <div id = "headline" className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='open-sans text-white text-xl lg:text-4xl font-medium'>Journal</h1>
-        <p className='open-sans text-white text-sm lg:text-base font-light text-center w-full lg:w-1/2'>Explore Jakarta's captivating stories and local insights in our Journal. Discover hidden gems and be inspired by the city's diverse narratives for your own adventures.</p>
+        <h1 className='open-sans text-white text-xl lg:text-4xl font-medium'>Articles</h1>
+        <p className='open-sans text-white text-sm lg:text-base font-light text-center w-full lg:w-1/2'>Explore Jakarta's captivating stories and local insights in our Articles. Discover hidden gems and be inspired by the city's diverse narratives for your own adventures.</p>
       </div>
 
       <div id = "images" className='flex flex-col lg:flex-row gap-10 h-auto justify-center items-center'>
@@ -32,7 +32,7 @@ export default function Blog (){
         <BlogCard source = {images.blog2} date = "June 1, 2023" title = "The Great Canal" />
       </div>
 
-      <a href = '/' className='text-blue-500 open-sans text-sm uppercase'>All Posts</a>
+      <a href = '/' className='text-yellow-600 open-sans text-sm uppercase'>All Posts</a>
     </section>
   )
 }

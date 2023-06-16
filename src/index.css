@@ -1,3 +1,5 @@
+/* transition-timing-function: cubic-bezier(1,-0.01,.63,.72); */
+/* transition-timing-function: cubic-bezier(1,-0.03,.59,.79) */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,4 +22,8 @@
 
 ::-webkit-scrollbar{
   display: none;
+}
+
+.easeInBack {
+  transition-timing-function:cubic-bezier(.72,.11,0,.99)
 }
