@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import './components/animation.css'
+import './components/utils/css/animation.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <App />

@@ -5,21 +5,25 @@ import {
   Preloader, 
   Introduction, 
   Sidebar, 
-  Location,
-  Blog,
   Final
 } from "./components"
 
-export default function App() {
+import { Overview } from "./components/overview";
+import { History } from "./components/history";
+import { Articles } from "./components/articles";
+import { Timeline } from "./components/timeline";
 
+export default function App() {
   return (
     <div id = "layout" className="w-screen h-max">
       <Preloader/>
       <Sidebar/>
       <SmoothWrapper>
         <Introduction/>
-        <Location/>
-        <Blog/>
+        <Overview/>
+        <History/>
+        <Articles/>
+        <Timeline/>
         <Final/>
       </SmoothWrapper>
     </div>

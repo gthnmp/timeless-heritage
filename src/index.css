@@ -6,10 +6,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 .open-sans {
@@ -18,14 +23,6 @@
 
 .noto-serif {
   font-family: 'Noto Serif', serif;
-}
-
-::-webkit-scrollbar{
-  display: none;
-}
-
-.easeInBack {
-  transition-timing-function:cubic-bezier(.72,.11,0,.99)
 }
 
 .vertical-text {

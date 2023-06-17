@@ -20,20 +20,15 @@ const LocationCard = ( props ) => {
   )
 }
 
-export default function Location(){
+export default function History(){
   return(
     <section id ="more" className='relative w-screen h-full px-4 lg:px-16 flex flex-col justify-center items-center gap-10 bg-neutral-950'>
         
       <div id = "headline" className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='open-sans text-yellow-500 text-xl lg:text-4xl font-medium'>Explore Jakarta</h1>
-        <p className='open-sans text-white text-sm lg:text-base font-light text-center w-full lg:w-1/2'>Experience Jakarta's dynamic charm as you explore its bustling streets, vibrant markets, and iconic landmarks. From historical sites to modern attractions, there's something for everyone in this captivating city</p>
+        <h1 className='open-sans text-yellow-500 text-xl lg:text-4xl font-medium'>History</h1>
+        <p className='open-sans text-white text-sm lg:text-base font-light text-center w-full lg:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloremque sed dolorem qui libero saepe repudiandae nostrum, ex eaque animi quod optio tempore exercitationem odio ipsa maiores odit, necessitatibus ad.</p>
       </div>
 
-      <div id = "images" className='flex flex-col lg:flex-row gap-10 h-auto justify-center items-center'>
-        <LocationCard source = {images.fatahillahMuseum} name = "Old Town Square" location = "West Jakarta"/>
-        <LocationCard source = {images.shipyard} name = "VOC Shipyard" location = "North Jakarta" />
-        <LocationCard source = {images.bantengSquare} name = "Banteng Square" location = "Central Jakarta"/>
-      </div>
 
     </section>
   )
