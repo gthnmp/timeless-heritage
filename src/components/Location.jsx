@@ -35,7 +35,6 @@ export default function Location(){
         <LocationCard source = {images.bantengSquare} name = "Banteng Square" location = "Central Jakarta"/>
       </div>
 
-      <a href = '/' className='text-yellow-600 open-sans text-sm uppercase'>See More</a>
     </section>
   )
 }

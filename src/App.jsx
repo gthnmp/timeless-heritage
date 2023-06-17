@@ -1,25 +1,27 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import {
+  SmoothWrapper,
   Preloader, 
   Introduction, 
-  Navbar, 
+  Sidebar, 
   Location,
   Blog,
   Final
 } from "./components"
 
 export default function App() {
+
   return (
-    <div id = "layout" className="w-screen h-full">
+    <div id = "layout" className="w-screen h-max">
       <Preloader/>
-      <Navbar/>
-      <main className='w-full h-full flex flex-col gap-20'>
+      <Sidebar/>
+      <SmoothWrapper>
         <Introduction/>
         <Location/>
         <Blog/>
         <Final/>
-      </main>
+      </SmoothWrapper>
     </div>
   )
 }

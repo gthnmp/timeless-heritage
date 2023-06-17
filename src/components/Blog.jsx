@@ -32,7 +32,6 @@ export default function Blog (){
         <BlogCard source = {images.blog2} date = "June 1, 2023" title = "The Great Canal" />
       </div>
 
-      <a href = '/' className='text-yellow-600 open-sans text-sm uppercase'>All Posts</a>
     </section>
   )
 }

@@ -5,7 +5,7 @@ const images = {
 
 export default function Introduction () {
   return(
-    <section id ="introduction" className='w-screen h-screen px-4 lg:px-16 flex flex-col justify-center'>
+    <section id ="introduction" className='relative w-screen h-screen px-4  lg:px-16 flex flex-col justify-center'>
       <div id = "headline" className='flex flex-col justify-center items-center gap-2 lg:gap-4'>
         <h1 className='text-4xl lg:text-7xl noto-serif font-medium text-center text-white'>Batavia: <span className="text-yellow-500">A Timeless Heritage</span></h1>
         <p className='text-white text-sm lg:text-base open-sans font-light'>Step into Jakarta's Historic Timeline</p>

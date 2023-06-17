@@ -12,7 +12,7 @@ const SmoothWrapper = ({ className: additionalClassNames, ...props }) => {
   const customizedClassName = `${defaultClassName} ${additionalClassNames}`;
 
   useEffect(() => {
-    let ease = 0.09;
+    let ease = 0.075;
 
     function lerp(start, end, t) {
       return start * (1 - t) + end * t;

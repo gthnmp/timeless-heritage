@@ -10,7 +10,7 @@
 }
 
 #nav-button:hover::after {
-  width: 110%;
+  width: 100%;
 }
 
 #about-button:after {
