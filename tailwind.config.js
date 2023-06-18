@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors : {
+        'primary-color' : "rgb(220 38 38)",
+        'secondary-color' : "rgb(10 10 10)",
+      },
       fontSize: {
         "big" : "15rem"
       },

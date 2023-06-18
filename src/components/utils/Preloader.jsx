@@ -34,7 +34,7 @@ export default function Preloader(){
   },[loadingNumber])
 
   return(
-    <div ref={loadingContainerRef} className="fixed z-50 w-screen h-screen easeInback bg-yellow-500 flex justify-center items-center transition-transform duration-1000 -translate-y-0">
+    <div ref={loadingContainerRef} className="fixed z-50 w-screen h-screen easeInback bg-primary-color flex justify-center items-center transition-transform duration-1000 -translate-y-0">
       <div id = 'line' className="overflow-hidden">
         <h1 id = 'number' ref = {numberRef} className={`text-black noto-serif text-4xl lg:text-7xl transition-transform duration-1000 ease translate-y-full`}>{loadingNumber}</h1>
       </div>
