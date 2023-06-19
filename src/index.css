@@ -29,3 +29,14 @@
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
 }
+
+#jayakarta::before{
+  content: "";
+  background-color: red;
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%, -50%);
+
+}

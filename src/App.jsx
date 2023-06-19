@@ -15,18 +15,18 @@ import { Timeline } from "./components/timeline";
 
 export default function App() {
   return (
-    <div id = "layout" className="w-screen h-max">
+    <>
       <Preloader/>
       <Sidebar/>
       <SmoothWrapper id = "wrapper" className="w-full h-max flex flex-col">
         <Introduction/>
         <Overview/>
         <History/>
-        {/* <Present/>
-        <Timeline/> */}
+        <Present/>
+        {/* <Timeline/> */}
         <Final/>
       </SmoothWrapper>
-    </div>
+    </>
   )
 }
 

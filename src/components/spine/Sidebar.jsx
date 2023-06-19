@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import { Link } from "react-scroll";
 
 const Spine = ({ handleClick, sidebarVisible }) => (
   <div

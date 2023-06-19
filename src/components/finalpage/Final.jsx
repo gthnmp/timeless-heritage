@@ -5,7 +5,7 @@ const images = {
 
 export default function Final () {
   return(
-    <section id ="thanks" className='relative w-screen h-screen px-4 lg:px-16 flex flex-col justify-center'>
+    <section id ="thanks" className='relative w-screen h-screen px-4 lg:px-16 flex flex-col justify-center -z-20'>
     <div id = "headline" className='flex flex-col justify-center items-center gap-2 lg:gap-4'>
       <h1 className='text-primary-color text-4xl lg:text-7xl noto-serif font-medium'>Thank You.</h1>
       <p className='text-white text-sm lg:text-base open-sans font-light'>I'm truly grateful for your time and attention.</p>

@@ -11,9 +11,9 @@ export default function Introduction () {
         <p className='text-white text-sm lg:text-base open-sans font-light'>Step into Jakarta's Historic Timeline</p>
       </div>
 
-      <div id ="bg-image" className="absolute left-0 w-full h-full z-[-1] ">
+      <div id ="bg-image" className="absolute left-0 w-full h-full z-[-1]">
         <div id ="overlay" className='absolute top-0 left-0 w-screen h-screen bg-secondary-color opacity-40'></div>
-        <img id = "image" src={images.backgroundImage} className='w-full h-full object-cover' />
+        <img id = "image" src={images.backgroundImage} className='w-full h-full object-cover ' />
       </div>
     </section>
   )
