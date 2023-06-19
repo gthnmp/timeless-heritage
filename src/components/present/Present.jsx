@@ -20,7 +20,7 @@ const LocationCard = ( props ) => {
   )
 }
 
-export default function Articles(){
+export default function Present(){
   return(
     <section id ="more" className='relative w-screen h-full px-4 lg:px-16 flex flex-col justify-center items-center gap-10 bg-neutral-950'>
         

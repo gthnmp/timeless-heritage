@@ -8,7 +8,7 @@ const SmoothWrapper = ({ className: additionalClassNames, ...props }) => {
   let current = 0;
   let target = 0;
   const defaultClassName =
-    'fixed will-change-transform w-full h-max flex flex-col';
+    'fixed will-change-transform';
   const customizedClassName = `${defaultClassName} ${additionalClassNames}`;
 
   useEffect(() => {
@@ -72,7 +72,7 @@ const SmoothWrapper = ({ className: additionalClassNames, ...props }) => {
   }, []);
 
   return (
-    <div ref={contentRef} className={customizedClassName} style={props.style}>
+    <div id = "wrapper" ref={contentRef} className={customizedClassName} style={props.style}>
       {props.children}
     </div>
   );

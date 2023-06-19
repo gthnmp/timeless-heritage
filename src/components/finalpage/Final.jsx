@@ -12,7 +12,7 @@ export default function Final () {
     </div>
 
     <div className='absolute left-1/2 bottom-0 py-4 transform -translate-x-1/2 flex flex-col gap-2'>
-      <h1 className='text-gray-300 open-sans text-center text-xs lg:text-base tracking-tight'>© 2023 BATAVIA: A TIMELESS HERITAGE , All right reserved</h1>
+      <h1 className='text-gray-300 open-sans text-center text-xs lg:text-base tracking-tight'>© 2023 JAKARTA: A TIMELESS HERITAGE , All right reserved</h1>
       <h1 className='text-primary-color open-sans text-center text-xs lg:text-base tracking-tight'>Gathan Mahesa</h1>
     </div>
 

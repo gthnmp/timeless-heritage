@@ -10,7 +10,7 @@ import {
 
 import { Overview } from "./components/overview";
 import { History } from "./components/history";
-import { Articles } from "./components/articles";
+import { Present } from "./components/present";
 import { Timeline } from "./components/timeline";
 
 export default function App() {
@@ -18,12 +18,12 @@ export default function App() {
     <div id = "layout" className="w-screen h-max">
       <Preloader/>
       <Sidebar/>
-      <SmoothWrapper>
+      <SmoothWrapper id = "wrapper" className="w-full h-max flex flex-col">
         <Introduction/>
         <Overview/>
         <History/>
-        <Articles/>
-        <Timeline/>
+        {/* <Present/>
+        <Timeline/> */}
         <Final/>
       </SmoothWrapper>
     </div>

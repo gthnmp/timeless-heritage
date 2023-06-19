@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Spine = ({ handleClick, sidebarVisible }) => (
   <div
@@ -21,7 +22,7 @@ const Spine = ({ handleClick, sidebarVisible }) => (
       By Gathan Mahesa
     </p>
     <p className="text-inherits vertical-text text-xs open-sans uppercase font-light hidden lg:block">
-      Batavia : A Timeless Heritage
+      Jakarta : A Timeless Heritage
     </p>
     <p className="text-inherits vertical-text text-xs open-sans uppercase font-light hidden lg:block">
       2023
@@ -34,18 +35,18 @@ const TableOfContent = ({ handleClick, sidebarVisible }) => (
     style={{ transform: sidebarVisible ? "translateX(0%)" : "translateX(-100%)" }}>
     <ul className="flex flex-col h-full gap-10 lg:gap-0 justify-center lg:justify-between">
       <li className="overflow-hidden">
-        <a href="#overview" className="relative text-secondary-color">
+        <a href="#overview" onClick={console.log('foo')} className="relative text-secondary-color">
           <h1 id = "nav-button" className={`transition-transform w-max ease-in-out duration-1000 ${sidebarVisible ? 'translate-y-0 delay-1000' : 'translate-y-full'}`}>Overview</h1>
         </a>
       </li>
       <li className="overflow-hidden">
         <a href="/" className="relative text-secondary-color">
-          <h1 id = "nav-button" className={`transition-transform w-max ease-in-out duration-1000 ${sidebarVisible ? 'translate-y-0 delay-1100' : 'translate-y-full'}`}>History</h1>
+          <h1 id = "nav-button" className={`transition-transform w-max ease-in-out duration-1000 ${sidebarVisible ? 'translate-y-0 delay-1100' : 'translate-y-full'}`}>Precolonial</h1>
         </a>
       </li>
       <li className="overflow-hidden">
         <a href="/" className="relative text-secondary-color">
-          <h1 id = "nav-button" className={`transition-transform w-max ease-in-out duration-1000 ${sidebarVisible ? 'translate-y-0 delay-1200' : 'translate-y-full'}`}>The Present</h1>
+          <h1 id = "nav-button" className={`transition-transform w-max ease-in-out duration-1000 ${sidebarVisible ? 'translate-y-0 delay-1200' : 'translate-y-full'}`}>Batavia</h1>
         </a>
       </li>
       <li className="overflow-hidden">
@@ -68,7 +69,6 @@ const TableOfContent = ({ handleClick, sidebarVisible }) => (
   </div>
 
 )
-
 
 export default function Sidebar() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
